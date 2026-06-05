@@ -1,0 +1,105 @@
+import type { CompanionSkin } from './types'
+
+const PALETTE = {
+  K: '#1a1820',
+  H: '#38364e',
+  G: '#5a5870',
+  g: '#8886a2',
+  W: '#f4f0ec',
+  w: '#c4c0b4',
+  S: '#d4a070',
+  s: '#a87848',
+  R: '#686680',
+  r: '#484660',
+  E: '#3060c8',
+  B: '#8a6030',
+  L: '#f0d840',
+}
+
+const OPEN: string[] = [
+  '......KKK.......',
+  '.....KGGgK......',
+  '....KGGGGgK.....',
+  '...KGGGGGGgK....',
+  '..KHGGGGGGGgK...',
+  '.KHHHHHHHHHHGgK.',
+  'KGGGGGGGGGGGGgGK',
+  '.KWwWWWWWWWWwWK.',
+  '.KWwwWSSSSSwwWK.',
+  '.KWwWSsKKsSwwWK.',
+  '.KWwWWSSSSSWwwK.',
+  '.KWWWWWWWWWWWwK.',
+  '.KwRRRRRRRRRwwK.',
+  '.KwRRrRRRRrRwwK.',
+  '.KwRRrRRRRrRwwK.',
+  '.KwRRRRRRRRRwwK.',
+  '..KRRrRRRRrRRK..',
+  '..KRRRRRRRRRrK..',
+  '...KrKKKKKrK....',
+  '....KKK.KKK.....',
+]
+
+const CLOSED: string[] = [
+  '......KKK.......',
+  '.....KGGgK......',
+  '....KGGGGgK.....',
+  '...KGGGGGGgK....',
+  '..KHGGGGGGGgK...',
+  '.KHHHHHHHHHHGgK.',
+  'KGGGGGGGGGGGGgGK',
+  '.KWwWWWWWWWWwWK.',
+  '.KWwwWSSSSSwwWK.',
+  '.KWwWSswwsSwwWK.',
+  '.KWwWWSSSSSWwwK.',
+  '.KWWWWWWWWWWWwK.',
+  '.KwRRRRRRRRRwwK.',
+  '.KwRRrRRRRrRwwK.',
+  '.KwRRrRRRrrRwwK.',
+  '.KwRRRRRRRRRwwK.',
+  '..KRRrRRRrrRRK..',
+  '..KRRRRRRRRRrK..',
+  '...KrKKKKKrK....',
+  '....KKK.KKK.....',
+]
+
+const DWARF_PALETTE = {
+  K: '#1a1820',
+  H: '#4a3828',
+  h: '#6a5040',
+  S: '#c89060',
+  s: '#a07040',
+  B: '#7a5028',
+  b: '#4a3018',
+  R: '#8a3030',
+  r: '#5c2020',
+  A: '#8a8a9a',
+}
+
+const DWARF: string[] = [
+  '..KHHHHK..',
+  '.KHhHHhHK.',
+  'KHHhHHhHHK',
+  '.KSSsSSSK.',
+  '.KBBBBBbK.',
+  'KBBBBBBBbK',
+  'KBBBRRBBbK',
+  'KBbRRRRbbK',
+  '.KRRrRRRK.',
+  '.KRRrRRRK.',
+  '..KbK.KbK.',
+  '..KKK.KKK.',
+]
+
+export const gandalf: CompanionSkin = {
+  id: 'gandalf',
+  label: 'Gandalf',
+  palette: PALETTE,
+  open: OPEN,
+  closed: CLOSED,
+  size: 96,
+  mini: {
+    rows: DWARF,
+    palette: DWARF_PALETTE,
+    size: 22,
+  },
+}
