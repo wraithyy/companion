@@ -15,8 +15,6 @@ mkdir -p "$HOOKS_DIR"
 cp "$COMPANION_DIR/hooks/companion-forward.sh" "$HOOK_DEST"
 chmod +x "$HOOK_DEST"
 echo "[companion] Hook script installed to $HOOK_DEST"
-
-echo "[companion] Hook script installed to $HOOK_DEST"
 echo ""
 echo "[companion] Next: open the Claude Code project where you want companion active,"
 echo "            then run: /companion:enable"

@@ -1,10 +1,14 @@
+---
+description: Remove the companion hook script from this machine.
+---
+
 Remove the Claude Code Companion hooks from this machine.
 
 ## Steps
 
 1. Run the uninstall script:
    ```bash
-   bash /Users/wraithy/Development/companion/uninstall.sh
+   bash "${CLAUDE_PLUGIN_ROOT}/uninstall.sh"
    ```
 
 2. Confirm hooks removed:

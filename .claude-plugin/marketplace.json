@@ -1,0 +1,13 @@
+{
+  "name": "companion",
+  "owner": {
+    "name": "Josef"
+  },
+  "plugins": [
+    {
+      "name": "companion",
+      "source": "./",
+      "description": "Desktop companion that reacts to Claude Code activity in real time via hooks."
+    }
+  ]
+}

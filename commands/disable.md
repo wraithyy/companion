@@ -1,3 +1,7 @@
+---
+description: Disable the companion for the current project (removes hooks from .claude/settings.local.json).
+---
+
 Disable the Claude Code Companion for this project.
 
 Removes companion hook entries from `.claude/settings.local.json`.

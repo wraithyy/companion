@@ -1,3 +1,7 @@
+---
+description: Enable the companion for the current project (writes hooks to .claude/settings.local.json).
+---
+
 Enable the Claude Code Companion for this specific project instance only.
 
 Writes companion hook entries to `.claude/settings.local.json` in the current project. Only this Claude Code window will send events to the companion app.
