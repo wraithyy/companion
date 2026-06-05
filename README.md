@@ -32,9 +32,10 @@ Claude Code  ──hook event──▶  companion-forward.sh  ──HTTP POST─
                                                             Sprite + animation update
 ```
 
-- Each Claude Code hook (`PreToolUse`, `Stop`, `SubagentStop`, …) runs a small
-  forwarding script that POSTs the event JSON to a local HTTP server the app
-  runs on port **4317**.
+- The plugin declares hooks for each Claude Code event (`PreToolUse`, `Stop`,
+  `SubagentStop`, …) in `.claude-plugin/plugin.json`. Each runs a small
+  forwarding script (`hooks/companion-forward.sh`) that POSTs the event JSON to
+  a local HTTP server the app runs on port **4317**.
 - The Tauri backend re-emits it to the web frontend, where a reducer maps the
   event to one of the companion **states** (see the table below).
 - The active **skin** decides what the character looks like; states only decide
@@ -45,7 +46,13 @@ Claude Code  ──hook event──▶  companion-forward.sh  ──HTTP POST─
 
 ## Install
 
-### 1. Build & run the app
+Companion is a **Claude Code plugin**. Installing the plugin registers its
+hooks automatically — there's no install script and nothing is written to your
+global `~/.claude/settings.json`. The hooks live in the plugin
+(`.claude-plugin/plugin.json`) and run from the plugin directory via
+`${CLAUDE_PLUGIN_ROOT}`.
+
+### 1. Build & run the desktop app
 
 Requires [Rust](https://rustup.rs/) + [pnpm](https://pnpm.io/).
 
@@ -58,36 +65,23 @@ pnpm tauri dev        # run in development
 Leave the app running — it listens on `127.0.0.1:4317` for events. If the port
 is already taken (another instance), it logs a warning and exits.
 
-### 2. Install the plugin hook script
+### 2. Install the plugin in Claude Code
 
-From the project root:
-
-```bash
-./install.sh
-```
-
-This copies `hooks/companion-forward.sh` to `~/.claude/hooks/`.
-
-### 3. Enable it for a project
-
-Open the Claude Code project where you want the companion active and run:
+Add this repo as a plugin marketplace, then install the `companion` plugin:
 
 ```
-/companion:enable
+/plugin marketplace add wraithyy/companion
+/plugin install companion
 ```
 
-This writes the hook entries into that project's
-`.claude/settings.local.json` only (no global changes). Restart Claude Code for
-the hooks to take effect.
+(Or `/plugin marketplace add <path-to-this-repo>` for a local checkout.)
 
-Related commands:
+That's it. Enabling the plugin activates the hooks; disabling it removes them.
+Use `/plugin` to manage which projects it's enabled in — no manual settings
+edits, no global hooks.
 
-| Command                 | Effect                                          |
-| ----------------------- | ----------------------------------------------- |
-| `/companion:install`    | Install the hook script onto the machine        |
-| `/companion:enable`     | Enable the companion for the current project    |
-| `/companion:disable`    | Remove the hooks from the current project       |
-| `/companion:uninstall`  | Remove the hook script from the machine         |
+> The hooks call `hooks/companion-forward.sh` inside the plugin, which POSTs
+> each event to the running app. The app must be running to see anything.
 
 ---
 
