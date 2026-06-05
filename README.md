@@ -20,6 +20,11 @@ forwards hook events to it.
 | ![Subagents thinking](screens/Screenshot%202026-06-05%20at%2019.21.32.png) | ![Cat subagents](screens/Screenshot%202026-06-05%20at%2019.20.32.png) | ![Done](screens/Screenshot%202026-06-05%20at%2019.21.01.png) |
 | Mini companions per subagent | Cat skin with mini cats | Check on turn complete |
 
+| Asking |
+|:---:|
+| ![Asking](screens/Screenshot%202026-06-05%20at%2019.25.13.png) |
+| Question mark when Claude asks you something |
+
 ---
 
 ## Table of contents
