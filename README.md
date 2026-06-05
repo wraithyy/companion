@@ -8,6 +8,20 @@ forwards hook events to it.
 
 ---
 
+## Preview
+
+| Thinking | Working | Editing |
+|:---:|:---:|:---:|
+| ![Thinking](screens/Screenshot%202026-06-05%20at%2019.19.48.png) | ![Working](screens/Screenshot%202026-06-05%20at%2019.21.40.png) | ![Editing](screens/Screenshot%202026-06-05%20at%2019.21.27.png) |
+| Thought bubble while Claude plans | Gear spins during Bash commands | Red square while writing files |
+
+| Subagents (thinking) | Subagents (cat) | Done |
+|:---:|:---:|:---:|
+| ![Subagents thinking](screens/Screenshot%202026-06-05%20at%2019.21.32.png) | ![Cat subagents](screens/Screenshot%202026-06-05%20at%2019.20.32.png) | ![Done](screens/Screenshot%202026-06-05%20at%2019.21.01.png) |
+| Mini companions per subagent | Cat skin with mini cats | Check on turn complete |
+
+---
+
 ## Table of contents
 
 - [How it works](#how-it-works)
