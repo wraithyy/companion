@@ -1,88 +1,92 @@
 import type { CompanionSkin } from './types'
 
 const PALETTE = {
-  K: '#1c1a28',
-  H: '#2e2c40',
-  G: '#504e66',
-  g: '#8280a0',
-  W: '#f0ece4',
-  w: '#c0bcb0',
-  F: '#c89868',
-  f: '#a07848',
-  R: '#3e3c52',
-  r: '#2c2a3c',
-  B: '#7a5828',
-  b: '#4a3418',
-  L: '#d8b040',
+  K: '#1c1a28', // dark outline
+  H: '#2e2c40', // darkest hat
+  G: '#504e66', // mid grey hat
+  g: '#8280a0', // light hat highlight
+  W: '#f0ece4', // white beard
+  w: '#c0bcb0', // beard shadow
+  S: '#c89868', // skin
+  s: '#a07848', // skin shadow
+  R: '#3e3c52', // dark robe
+  r: '#2c2a3c', // robe shadow
+  B: '#7a5828', // staff brown
+  L: '#d8b040', // staff gold glow
 }
 
-// 14 wide — tall pointy hat, big white beard, staff on left
+// 16 wide x 20 tall — tall pointy hat, big white beard, staff on left
 const OPEN: string[] = [
-  '...KgK........',
-  '..KGGgK.......',
-  '.KHGGGgK......',
-  '.KHHGGGgK.....',
-  '.KHHHGGGgK....',
-  'KKKKKKKKKKKgK.',
-  'KGGGGGGGGGGGgK',
-  'KwWWWWWWWWWwwK',
-  'KwWWWSKKSWWwwK',
-  'KwWWWFFFFWWwwK',
-  'KwWWWWWWWWWwwK',
-  'KwWWWWWWWWWwwK',
-  'LBRRRRRRRRRRrK',
-  'bBRRrRRRRrRRrK',
-  'bBRRrRRRRrRRrK',
-  'bBRRRRRRRRRRrK',
-  '.bKRRRRRRRRrK.',
-  '..KbKKKKKKbK..',
+  '.......KK.......',
+  '......KHHK......',
+  '.....KHHHgK.....',
+  '....KHHHHGgK....',
+  '...KHHHHGGgK....',
+  'L.KHHHGGGgK.....',
+  'LKHHHHGGGgK.....',
+  'BHHHHHHHHHHHHHHK',
+  'BGGGGGGGGGGGGGGK',
+  'BwwwSsKSSKsSwwwK',
+  'BwwwSSsSSsSSwwwK',
+  'BKWWWWWWWWWWWwK.',
+  'BKWWWsSsWWWWK...',
+  'BKWWWWsSWWWWK...',
+  'BKWWWWWWWWWwK...',
+  'B.KWWWWWWWWwK...',
+  'B..KWWWWWWwK....',
+  'B...KWWWWwK.....',
+  'BRRRRRRRRRRRRRrK',
+  'BRRRrRRRRRrRRRrK',
 ]
 
 const CLOSED: string[] = [
-  '...KgK........',
-  '..KGGgK.......',
-  '.KHGGGgK......',
-  '.KHHGGGgK.....',
-  '.KHHHGGGgK....',
-  'KKKKKKKKKKKgK.',
-  'KGGGGGGGGGGGgK',
-  'KwWWWWWWWWWwwK',
-  'KwWWWSfffWWwwK',
-  'KwWWWFFFFWWwwK',
-  'KwWWWWWWWWWwwK',
-  'KwWWWWWWWWWwwK',
-  'LBRRRRRRRRRRrK',
-  'bBRRrRRRRrRRrK',
-  'bBRRrRRRRrRRrK',
-  'bBRRRRRRRRRRrK',
-  '.bKRRRRRRRRrK.',
-  '..KbKKKKKKbK..',
+  '.......KK.......',
+  '......KHHK......',
+  '.....KHHHgK.....',
+  '....KHHHHGgK....',
+  '...KHHHHGGgK....',
+  'L.KHHHGGGgK.....',
+  'LKHHHHGGGgK.....',
+  'BHHHHHHHHHHHHHHK',
+  'BGGGGGGGGGGGGGGK',
+  'BwwwSsSSSsSswwwK',
+  'BwwwSSSSSSSwwwwK',
+  'BKWWWWWWWWWWWwK.',
+  'BKWWWsSsWWWWK...',
+  'BKWWWWsSWWWWK...',
+  'BKWWWWWWWWWwK...',
+  'B.KWWWWWWWWwK...',
+  'B..KWWWWWWwK....',
+  'B...KWWWWwK.....',
+  'BRRRRRRRRRRRRRrK',
+  'BRRRrRRRRRrRRRrK',
 ]
 
 const DWARF_PALETTE = {
   K: '#1c1a28',
-  H: '#4c3c2c',
-  h: '#786050',
-  F: '#c89060',
-  B: '#9a7830',
-  b: '#6a5020',
-  T: '#5a3020',
-  t: '#3c1e10',
+  A: '#848898', // metal grey helmet
+  a: '#acacc0', // helmet highlight
+  S: '#c89060', // skin
+  s: '#a07040', // skin shadow
+  B: '#8a6020', // brown beard
+  b: '#5a3c10', // beard shadow
+  t: '#2a2028', // dark boot
 }
 
-// 10 wide — leather helmet, tiny face, huge beard, stubby body
+// 11 wide x 12 tall — horned helmet, skin face, huge brown beard, boots
 const DWARF: string[] = [
-  '..KHHHHK..',
-  '.KHhHHhHK.',
-  'KHHhHHhHHK',
-  '..KFFFFK..',
-  '.KBBBBBbK.',
-  'KBBBBBBBbK',
-  'KBBTTTTBbK',
-  'KbBTTTTbbK',
-  'KbbTtTTbbK',
-  '.KbTtTTbK.',
-  '..KbKKbK..',
+  '.KK.KKK.KK.',
+  '.KAAAAAAAAK',
+  'KAaAAAAAAaK',
+  'KKKKKKKKKKK',
+  '.KSSssSsSSK',
+  '.KBBBBBBBbK',
+  'KBBbBBBbBBK',
+  'KBBbBBBbBBK',
+  'KBBBBBBBBbK',
+  '.KBBBBBBbK.',
+  '..KBBBBbK..',
+  '...KtKKtK..',
 ]
 
 export const gandalf: CompanionSkin = {
@@ -95,6 +99,6 @@ export const gandalf: CompanionSkin = {
   mini: {
     rows: DWARF,
     palette: DWARF_PALETTE,
-    size: 22,
+    size: 24,
   },
 }
