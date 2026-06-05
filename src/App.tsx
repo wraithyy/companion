@@ -9,7 +9,8 @@ import { ResizeHandle } from './components/ResizeHandle'
 
 export default function App() {
   const { state, miniCount } = useCompanionState()
-  const { skin, skinId, selectSkin } = useSkin()
+  const { skin, skinId, skins, customIds, selectSkin, addSkins, removeSkin } =
+    useSkin()
   const scale = useWindowScale()
 
   return (
@@ -18,7 +19,14 @@ export default function App() {
       className="app-root"
     >
       <DragHandle />
-      <SkinPicker skinId={skinId} onSelect={selectSkin} />
+      <SkinPicker
+        skins={skins}
+        skinId={skinId}
+        customIds={customIds}
+        onSelect={selectSkin}
+        onAddSkins={addSkins}
+        onRemoveSkin={removeSkin}
+      />
       <ResizeHandle />
       <div className="companion-stage" style={{ transform: `scale(${scale})` }}>
         <Companion state={state} skin={skin} />
