@@ -1,45 +1,43 @@
 import { CompanionState } from '../lib/eventMap'
+import { CompanionSkin } from '../lib/sprites/types'
+import {
+  ACCESSORIES,
+  ACC_PALETTE,
+  CLOSED_STATES,
+  STATE_ACCESSORY,
+  STATE_ANIMATION,
+} from '../lib/sprites/shared'
+import { PixelSprite } from './PixelSprite'
 
 interface Props {
   state: CompanionState
+  skin: CompanionSkin
 }
 
-const STATE_EMOJI: Record<CompanionState, string> = {
-  idle: '😴',
-  thinking: '🤔',
-  reading: '📖',
-  editing: '✍️',
-  working: '⚙️',
-  searching: '🔍',
-  asking: '❓',
-  tidying: '🧹',
-  done: '✅',
-  sleeping: '💤',
-}
+export function Companion({ state, skin }: Props) {
+  const face = CLOSED_STATES.has(state) ? skin.closed : skin.open
+  const accessory = STATE_ACCESSORY[state]
 
-const STATE_ANIMATION: Record<CompanionState, string> = {
-  idle: 'companion-breathe',
-  thinking: 'companion-float',
-  reading: 'companion-tilt',
-  editing: 'companion-bounce',
-  working: 'companion-spin',
-  searching: 'companion-sway',
-  asking: 'companion-pulse',
-  tidying: 'companion-sway',
-  done: 'companion-pop',
-  sleeping: 'companion-breathe',
-}
-
-export function Companion({ state }: Props) {
   return (
     <div className={`companion companion--${state}`}>
-      <span
-        className={`companion-emoji ${STATE_ANIMATION[state]}`}
-        role="img"
-        aria-label={`companion is ${state}`}
-      >
-        {STATE_EMOJI[state]}
-      </span>
+      <div className={`companion-sprite ${STATE_ANIMATION[state]}`}>
+        <PixelSprite
+          rows={face}
+          palette={skin.palette}
+          size={skin.size}
+          ariaLabel={`${skin.label} is ${state}`}
+        />
+      </div>
+      {accessory.key && (
+        <div className={`companion-accessory ${accessory.anim}`}>
+          <PixelSprite
+            rows={ACCESSORIES[accessory.key]}
+            palette={ACC_PALETTE}
+            size={36}
+            ariaLabel=""
+          />
+        </div>
+      )}
     </div>
   )
 }

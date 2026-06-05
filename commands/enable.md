@@ -28,7 +28,7 @@ Writes companion hook entries to `.claude/settings.local.json` in the current pr
        exit(1)
    if "hooks" not in s:
        s["hooks"] = {}
-   for hook_type in ["UserPromptSubmit", "Notification", "PreToolUse", "PostToolUse", "Stop"]:
+   for hook_type in ["UserPromptSubmit", "Notification", "PreToolUse", "PostToolUse", "Stop", "SubagentStop", "SessionStart", "SessionEnd", "PreCompact"]:
        entries = s["hooks"].setdefault(hook_type, [])
        cmd = f"{hook_path} {hook_type}"
        already = any(h.get("command","") == cmd for entry in entries for h in entry.get("hooks",[]))

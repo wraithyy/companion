@@ -61,11 +61,27 @@ describe('companionReducer', () => {
     expect(next.state).toBe('done')
   })
 
-  it('IDLE_TIMEOUT -> idle state', () => {
+  it('IDLE_TIMEOUT during an active turn -> thinking (stays awake)', () => {
     const working = companionReducer(initialState, eventAction('PreToolUse', 'Bash'))
     expect(working.state).toBe('working')
+    expect(working.active).toBe(true)
     const next = companionReducer(working, { type: 'IDLE_TIMEOUT' })
+    expect(next.state).toBe('thinking')
+  })
+
+  it('IDLE_TIMEOUT after the turn stops -> idle', () => {
+    const stopped = companionReducer(initialState, eventAction('Stop'))
+    expect(stopped.state).toBe('done')
+    expect(stopped.active).toBe(false)
+    const next = companionReducer(stopped, { type: 'IDLE_TIMEOUT' })
     expect(next.state).toBe('idle')
+  })
+
+  it('IDLE_TIMEOUT after SessionEnd stays sleeping', () => {
+    const ended = companionReducer(initialState, eventAction('SessionEnd'))
+    expect(ended.state).toBe('sleeping')
+    const next = companionReducer(ended, { type: 'IDLE_TIMEOUT' })
+    expect(next.state).toBe('sleeping')
   })
 
   it('miniCount never goes below 0', () => {
