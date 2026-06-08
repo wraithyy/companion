@@ -5881,3 +5881,4 @@ If this is a native custom element, make sure to exclude it from component resol
   at <Play onVnodeUnmounted=fn<onVnodeUnmounted> ref=Ref< Proxy(Object) > > 
   at <RouterView> 
   at <App> @ http://localhost:3032/@fs/Users/wraithy/Development/Trask/ClaudeCodePresentation/node_modules/.pnpm/@vue+runtime-core@3.5.35/node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js?v=1759ab92:40
+[ 8885580ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:3032/@vite/client:992

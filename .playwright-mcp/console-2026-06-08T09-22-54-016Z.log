@@ -43,3 +43,227 @@
     at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
     at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
     at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 6707019ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:1420/@vite/client:559
+[ 6707032ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6708034ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6709036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6710039ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6711041ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6712043ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6713045ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6714047ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6715050ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6716052ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6717054ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6718057ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6719061ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6720064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6721067ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6722070ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6723072ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6724073ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6725075ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6726077ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6727079ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6728082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6729086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6730088ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6731090ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6732092ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6733094ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6734096ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6735099ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6736101ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6737104ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6738109ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6739111ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6740114ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6741116ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6742120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6743122ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6744124ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6745127ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6746129ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6747131ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6748132ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6749135ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6750138ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6751141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6752144ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6753146ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6754148ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6755150ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6756152ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6757154ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6758158ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6759160ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6760162ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6761166ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6762168ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6763171ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6764173ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6765175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6766177ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6767180ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6768184ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6769192ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6770193ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6771197ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6772199ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6773203ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6774205ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6775207ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6776210ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6777213ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6778218ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6779224ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6780227ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6781229ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6782231ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6783233ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6784235ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6785237ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6786238ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6787242ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6788248ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6789254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6790257ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6791262ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6792265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6793267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6794269ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6795272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6796275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6797278ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6798281ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6799287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6800289ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6801293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6802296ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6803298ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6804301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6805304ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6806306ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6807308ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6808311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6809315ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6810318ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6811321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6812323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6813324ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6814327ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6815330ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6816332ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6817334ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6818336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6819342ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6820345ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6821351ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6822354ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6823357ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6824361ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6825365ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6826368ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6827371ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6828376ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6829381ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6830384ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6831388ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6832390ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6833392ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6834395ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6835400ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6836403ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6837406ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6838408ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6839413ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6840416ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:1420/:0
+[ 6841845ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:21550
+[ 6841898ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 6841899ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at invokePassiveEffectMountInDEV (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18324:19)
+    at invokeEffectsInDev (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19701:19)
+    at commitDoubleInvokeEffectsInDEV (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19686:15)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19503:13)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+    at http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19328:17
+[ 6973239ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 6977138ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 7021282ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 7357155ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 7365798ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
+[ 7863520ms] TypeError: Cannot read properties of undefined (reading 'transformCallback')
+    at transformCallback (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:22:37)
+    at listen (http://localhost:1420/node_modules/.vite/deps/chunk-3D3XGJZW.js?v=2f73116f:132:14)
+    at http://localhost:1420/src/hooks/useCompanionState.ts:13:5
+    at commitHookEffectListMount (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:16915:34)
+    at commitPassiveMountOnFiber (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18156:19)
+    at commitPassiveMountEffects_complete (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18129:17)
+    at commitPassiveMountEffects_begin (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18119:15)
+    at commitPassiveMountEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:18109:11)
+    at flushPassiveEffectsImpl (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19490:11)
+    at flushPassiveEffects (http://localhost:1420/node_modules/.vite/deps/chunk-3OUSE6UW.js?v=2f73116f:19447:22)
