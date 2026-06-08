@@ -76,7 +76,7 @@ jobs:
             ```
             xattr -dr com.apple.quarantine /Applications/Companion.app
             ```
-          releaseDraft: true
+          releaseDraft: false
           prerelease: false
           args: ${{ matrix.args }}
 
