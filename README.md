@@ -8,6 +8,48 @@ forwards hook events to it.
 
 ---
 
+## Installation
+
+### macOS (Homebrew — recommended)
+
+```bash
+brew install --cask wraithyy/tap/companion
+```
+
+> First time: `brew tap wraithyy/tap` if the tap isn't added automatically.
+
+### Direct download
+
+Download the latest release for your platform from the [Releases page](https://github.com/wraithyy/companion/releases):
+
+| Platform | File |
+|----------|------|
+| macOS Apple Silicon | `Companion_x.y.z_aarch64.dmg` |
+| macOS Intel | `Companion_x.y.z_x64.dmg` |
+| Windows | `Companion_x.y.z_x64-setup.exe` |
+| Linux | `Companion_x.y.z_amd64.AppImage` / `.deb` |
+
+#### macOS unsigned app note
+
+Companion is not code-signed. On first launch macOS may block it:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/Companion.app
+```
+
+Or right-click the app → **Open** → **Open** in the dialog.
+
+### Build from source
+
+```bash
+git clone https://github.com/wraithyy/companion
+cd companion
+pnpm install
+pnpm tauri dev
+```
+
+---
+
 ## Preview
 
 | Thinking | Working | Editing |
@@ -223,6 +265,24 @@ To bake a skin into the app instead of importing it at runtime:
 2. Register it in `src/lib/sprites/index.ts` (`import` it and add to the
    `SKINS` array).
 3. Rebuild.
+
+---
+
+## Release Process
+
+1. Bump version across all files:
+   ```bash
+   node scripts/bump-version.mjs X.Y.Z
+   ```
+2. Commit and tag:
+   ```bash
+   git commit -am "chore: bump version to X.Y.Z"
+   git tag vX.Y.Z
+   git push && git push --tags
+   ```
+3. GitHub Actions builds artifacts and creates a draft Release automatically.
+4. Review the draft on GitHub Releases, then publish.
+5. The Homebrew cask updates automatically after publish.
 
 ---
 
