@@ -16,7 +16,7 @@ export interface CompanionSkin {
   // the main `open` sprite + palette.
   mini?: {
     rows: PixelRows
-    palette: Palette
+    palette?: Palette
     size?: number // rendered width in px (defaults to the mini default)
   }
 }

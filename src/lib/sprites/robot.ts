@@ -46,6 +46,28 @@ const CLOSED: string[] = [
   '....DD....DD....',
 ]
 
+const DISK_PALETTE = {
+  D: '#0f0f1a',
+  M: '#9ab0c8',
+  L: '#e0ddf0',
+  l: '#888898',
+  a: '#22dd66',
+}
+
+// 3.5" floppy disk — subagents carry data like good robots do.
+const DISK: string[] = [
+  'DDDDDDDDDl',
+  'DLLLLLLLLD',
+  'DLLLLLLLLD',
+  'DLLaLLLLLD',
+  'DLLLLLLLLD',
+  'DDDDDDDDDD',
+  'DMMMMMMMMD',
+  'DMM....MMD',
+  'DMMMMMMMMD',
+  'DDDDDDDDDD',
+]
+
 export const robot: CompanionSkin = {
   id: 'robot',
   label: 'Robot',
@@ -53,4 +75,9 @@ export const robot: CompanionSkin = {
   open: OPEN,
   closed: CLOSED,
   size: 88,
+  mini: {
+    rows: DISK,
+    palette: DISK_PALETTE,
+    size: 24,
+  },
 }

@@ -18,7 +18,7 @@ const Rows = z.array(z.string()).min(1, 'needs at least one row')
 
 const MiniSchema = z.object({
   rows: Rows,
-  palette: Palette,
+  palette: Palette.optional(),
   size: z.number().positive().optional(),
 })
 
@@ -57,7 +57,7 @@ const SkinSchema = z
     }
     checkRows(skin.open, skin.palette, 'open')
     checkRows(skin.closed, skin.palette, 'closed')
-    if (skin.mini) checkRows(skin.mini.rows, skin.mini.palette, 'mini')
+    if (skin.mini) checkRows(skin.mini.rows, skin.mini.palette ?? skin.palette, 'mini')
   })
 
 function formatError(err: z.ZodError): string {
