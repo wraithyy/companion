@@ -99,6 +99,32 @@ const CLOSED: string[] = [
   '....HKKKHKKKKKKKKKHKHKKKKKKK..',
 ]
 
+const DWARF_PALETTE = {
+  K: '#1c1820', // outline
+  I: '#525060', // iron helm dark
+  i: '#8a88a0', // helm highlight
+  S: '#c89060', // skin
+  s: '#a07040', // skin shadow / brow
+  B: '#4a2010', // dark beard
+  b: '#6a3820', // beard highlight
+}
+
+// 11 wide x 12 tall — iron helm with horns, visible dark eyes, massive dark beard
+const DWARF: string[] = [
+  '.KK.KKK.KK.',
+  '.KiIIIIIiK.',
+  'KIIIiIiIIIK',
+  'KKKKKKKKKKK',
+  '.KSSSSSSsSK',
+  '.KsKSSSKsSK',
+  '.KSSSSSSsSK',
+  'KKKbBBbBKKK',
+  'KBbBBBBBbBK',
+  'KBBbBBBbBBK',
+  '.KBBBBBBbK.',
+  '..KBBBBbK..',
+]
+
 export const wizard: CompanionSkin = {
   id: 'wizard',
   label: 'Pixel Wizard',
@@ -106,4 +132,9 @@ export const wizard: CompanionSkin = {
   open: OPEN,
   closed: CLOSED,
   size: 96,
+  mini: {
+    rows: DWARF,
+    palette: DWARF_PALETTE,
+    size: 32,
+  },
 }
