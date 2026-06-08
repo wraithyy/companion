@@ -4,13 +4,12 @@ import { cat } from './cat'
 import { robot } from './robot'
 import { ghost } from './ghost'
 import { kara } from './kara'
-import { gandalf } from './gandalf'
 import { wizard } from './wizard'
 
 export * from './types'
 export * from './shared'
 
-export const SKINS: CompanionSkin[] = [penguin, cat, robot, ghost, kara, gandalf, wizard]
+export const SKINS: CompanionSkin[] = [penguin, cat, robot, ghost, kara, wizard]
 
 export const DEFAULT_SKIN_ID = penguin.id
 
