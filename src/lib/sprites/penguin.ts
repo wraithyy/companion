@@ -64,16 +64,16 @@ const EGG: string[] = [
   '...KKWPKKPWKK...',
   '...KKKKOOKKKK...',
   '..KKKKWWWWKKKK..',
-  'eEEEeEEEEEEeEEee',
-  'EEEEEEEEEEEEEEEE',
+  '.EKKWEWWWWEKKKE.',
+  'EEEKEEEWWEEEKEEE',
   'EEEEEEEEEEEEEEEE',
   'EEEEEEEEEEEEEEEE',
   '.EEEEEEEEEEEEEE.',
   '.EEEEEEEEEEEEEE.',
   '..EEEEEEEEEEEE..',
+  '...EEEEEEEEEE...',
   '....EEEEEEEE....',
-  '......EEEE......',
-  '.......EE.......',
+  '................',
 ]
 
 export const penguin: CompanionSkin = {
